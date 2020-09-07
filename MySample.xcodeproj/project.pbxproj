@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D65ED782505F4BA00DE969B /* hoge_ozakueki.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7D65ED772505F4BA00DE969B /* hoge_ozakueki.gpx */; };
 		7D7598AC2503A3F00043A5B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7598AB2503A3F00043A5B8 /* CoreLocation.framework */; };
 		7D7598AE2503A4110043A5B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7598AD2503A4110043A5B8 /* MapKit.framework */; };
 		7DF9D6BF250327C0002329E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9D6BE250327C0002329E0 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D65ED772505F4BA00DE969B /* hoge_ozakueki.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hoge_ozakueki.gpx; sourceTree = "<group>"; };
 		7D7598A925039F0E0043A5B8 /* hoge.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = hoge.gpx; sourceTree = "<group>"; };
 		7D7598AB2503A3F00043A5B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7D7598AD2503A4110043A5B8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				7D7598A925039F0E0043A5B8 /* hoge.gpx */,
+				7D65ED772505F4BA00DE969B /* hoge_ozakueki.gpx */,
 				7DF9D6BD250327C0002329E0 /* MySample */,
 				7DF9D6BC250327C0002329E0 /* Products */,
 				7D7598AA2503A3EF0043A5B8 /* Frameworks */,
@@ -146,6 +149,7 @@
 				7DF9D6CB250327C3002329E0 /* LaunchScreen.storyboard in Resources */,
 				7DF9D6C8250327C3002329E0 /* Assets.xcassets in Resources */,
 				7DF9D6C6250327C0002329E0 /* Main.storyboard in Resources */,
+				7D65ED782505F4BA00DE969B /* hoge_ozakueki.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
