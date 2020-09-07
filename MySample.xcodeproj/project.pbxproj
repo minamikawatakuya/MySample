@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D65ED782505F4BA00DE969B /* hoge_ozakueki.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 7D65ED772505F4BA00DE969B /* hoge_ozakueki.gpx */; };
+		7D65ED7A2505F89B00DE969B /* GeofenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65ED792505F89B00DE969B /* GeofenceViewController.swift */; };
 		7D7598AC2503A3F00043A5B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7598AB2503A3F00043A5B8 /* CoreLocation.framework */; };
 		7D7598AE2503A4110043A5B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7598AD2503A4110043A5B8 /* MapKit.framework */; };
 		7DF9D6BF250327C0002329E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9D6BE250327C0002329E0 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7D65ED772505F4BA00DE969B /* hoge_ozakueki.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hoge_ozakueki.gpx; sourceTree = "<group>"; };
+		7D65ED792505F89B00DE969B /* GeofenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceViewController.swift; sourceTree = "<group>"; };
 		7D7598A925039F0E0043A5B8 /* hoge.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = hoge.gpx; sourceTree = "<group>"; };
 		7D7598AB2503A3F00043A5B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7D7598AD2503A4110043A5B8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -81,6 +83,7 @@
 				7DF9D6C0250327C0002329E0 /* SceneDelegate.swift */,
 				7DF9D6C2250327C0002329E0 /* ViewController.swift */,
 				7DF9D6C4250327C0002329E0 /* Main.storyboard */,
+				7D65ED792505F89B00DE969B /* GeofenceViewController.swift */,
 				7DF9D6C7250327C3002329E0 /* Assets.xcassets */,
 				7DF9D6C9250327C3002329E0 /* LaunchScreen.storyboard */,
 				7DF9D6CC250327C3002329E0 /* Info.plist */,
@@ -162,6 +165,7 @@
 			files = (
 				7DF9D6C3250327C0002329E0 /* ViewController.swift in Sources */,
 				7DF9D6BF250327C0002329E0 /* AppDelegate.swift in Sources */,
+				7D65ED7A2505F89B00DE969B /* GeofenceViewController.swift in Sources */,
 				7DF9D6C1250327C0002329E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
