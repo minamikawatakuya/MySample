@@ -122,12 +122,18 @@
                                 <rect key="frame" x="139" y="345" width="123" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ジオフェンス開始"/>
+                                <connections>
+                                    <action selector="pushGeofenceStart:" destination="rd2-5T-Lxw" eventType="touchUpInside" id="biW-j3-OEe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="u5z-AM-lo9"/>
                     </view>
                     <navigationItem key="navigationItem" id="hKG-aa-tK9"/>
+                    <connections>
+                        <outlet property="dispTextView" destination="V5a-Jb-p1N" id="emY-wQ-BQ6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E46-bT-Dvv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
