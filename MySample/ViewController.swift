@@ -27,8 +27,6 @@ class ViewController: UIViewController {
     var locationManager: CLLocationManager!
 
     @IBOutlet weak var dispTextView: UITextView!
-    //@IBOutlet weak var keidoIdoLabel: UILabel!
-    //@IBOutlet weak var idoLabel: UILabel!
     
     @IBOutlet weak var idoLabel: UILabel!
     @IBOutlet weak var keidoLabel: UILabel!
@@ -37,7 +35,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dispTextView.text = "どっち?"
+        dispTextView.text = ""
         
         // ロケーションマネージャのセットアップ
         setupLocationManager()
@@ -48,16 +46,12 @@ class ViewController: UIViewController {
     @IBAction func pushButton(_ sender: Any) {
         
         updateArr(arr: self.arryHoge)
-        
         self.dispStr = ""
-        
         for i in 0..<self.arryHoge.count {
             self.dispStr += self.arryHoge[i]
             self.dispStr += "\n"
         }
-        
         dispTextView.text = self.dispStr
-        //print(self.dispStr)
         
     }
     
