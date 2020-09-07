@@ -25,9 +25,9 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJ6-hz-7g2">
-                                <rect key="frame" x="234" y="202" width="46" height="30"/>
+                                <rect key="frame" x="196" y="202" width="123" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ジオフェンス開始"/>
                                 <connections>
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L2P-Xn-ubV"/>
                                 </connections>
